@@ -1,0 +1,57 @@
+.img {
+    width: 100%;
+  }
+  
+  
+  .dp-pic {
+    width: 36px;
+    border-radius: 50px;
+    vertical-align: center;
+  }
+ 
+
+
+  .tit {
+    margin-top: 0;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    margin-bottom: 10px;
+  }
+  .video-top {
+    margin-bottom: 8px;
+    position:relative;
+  }
+  .para,
+  .about {
+    font-size: 12px;
+    color:rgb(96,96,96);
+    
+  }
+  .video-bottom{
+    display: grid;
+    grid-template-columns: 50px 1fr;
+  }
+  .video-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 16px;
+    row-gap: 40px;
+  }
+  .video-tim{
+    font-size: 12px;
+    font-weight: 500;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-bottom: 4px;
+    padding-top: 4px;
+    border-radius: 2px;
+    background-color: black;
+    color: white;
+    position: absolute;
+    bottom: 8px;
+    right: 5px;
+  }
+  .para{
+    margin-bottom:10px;
+  }
